@@ -1,0 +1,44 @@
+body {
+    background-color: lightgrey;
+}
+
+.headshot{
+    justify-content: right;
+}
+
+.spacer{
+    padding: 5px;
+    margin: 5px;
+    border: 5px;
+}
+
+
+  .about-me{
+      padding: 20px;
+      background-color: #f8f8fa;
+  }
+
+  .skills-section{
+      background-color: #f8f8fa;
+  }
+
+
+  #sticky-footer {
+    flex-shrink: none;
+    background-color: #f8f8fa;
+  }
+
+  .portfoliowrapper{
+      background-color: white;
+  }
+
+.otherspacer{
+    padding: 20px;
+    background-color: #f8f8fa; 
+}
+
+  .contact{
+    background-color: #f8f8fa;
+    margin: 100px;
+    border: 100px;
+}
