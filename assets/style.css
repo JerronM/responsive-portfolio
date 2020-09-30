@@ -52,3 +52,12 @@ body {
     margin: 100px;
     border: 100px;
 }
+
+.projectimg{
+    height: 300px;
+    width: 300px;
+}
+
+.aboutmesection{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
