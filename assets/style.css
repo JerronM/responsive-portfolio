@@ -1,63 +1,62 @@
+/* */
 .myname{
     color: white;
 }
-
+/* */
 body {
     background-color: lightgrey;
 }
-
+/* */
 .headshot{
     justify-content: right;
 }
-
+/*Content spacing */
 .spacer{
     padding: 5px;
     margin: 5px;
     border: 5px;
 }
-
-
+/*Formatting of "About Me" Section*/
   .about-me{
       padding: 20px;
       background-color: #f8f8fa;
   }
-
+/* Color forced for skills section of portfolio page*/
   .skills-section{
       background-color: #f8f8fa;
   }
-
-
+/*Footer*/
   #sticky-footer {
     flex-shrink: none;
     background-color: #f8f8fa;
   }
-
+/*Forced background color for portfolio page*/
   .portfoliowrapper{
       background-color: white;
   }
-
+/*Content spacing*/
 .otherspacer{
     padding: 20px;
     background-color: #f8f8fa; 
 }
-
+/*Color and margin/padding for "Contact Me" page*/
   .contact{
     background-color: #f8f8fa;
     margin: 100px;
     border: 100px;
 }
-
+/*Content spacing*/
 .contactspacer{
     background-color: #ffffff;
     margin: 100px;
     border: 100px;
 }
-
+/*Size formatting for projects on protfolio page*/
 .projectimg{
     height: 300px;
     width: 300px;
 }
-
+/*Font family to override defaulted bootstrap content*/
 .aboutmesection{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
