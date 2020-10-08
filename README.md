@@ -13,5 +13,5 @@ Includes:
 Repo: https://github.com/JerronM/responsive-portfolio 
 Site: https://jerronm.github.io/responsive-portfolio/index.html
 
-# Image of Horiseon Webpage
+# Image of Webpage
 ![Website](https://github.com/JerronM/responsive-portfolio/tree/master/assets/img/responsive-portfolio-website.png)
