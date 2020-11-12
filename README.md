@@ -19,7 +19,7 @@ Includes:
 <h3> Site: https://jerronm.github.io/responsive-portfolio/index.html </h3>
 
 # Image of Webpage
-<img src="https://github.com/JerronM/responsive-portfolio/assets/img/responsive-portfolio-website.png">
+<img src="https://github.com/JerronM/responsive-portfolio/blob/master/assets/img/responsive-portfolio-website.png">
 
 
 # Contact Info
