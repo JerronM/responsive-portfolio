@@ -1,17 +1,26 @@
-# responsive-portfolio
+# Responsive Portfolio
 
 # Overview
-GA Tech Bootcamp - Homework 2: Responsive Portfolio Website
-Responsive portoflio website built using bootstrap elements, including custom CSS.
+Responsive portoflio website built using HTML & CSS including bootstrap elements.
+Updated to include:
+    * GA Tech Bootcamp Projects
+    * Link to GitHub page
+    * Link to Linkedin Profile
+
 
 Includes:
-* Home Page - Nav, Skills & Education cards, download button, footer
-* Portfolio - Nav, Certification and project cards, footer
-* Contact - Nav, contact form, footer
+* Home Page -  Contact Info, Resume PDF Download, Skills & Education Cards, Links to Github and Linkedin
+* Portfolio - Certifications and Portfolio Projects
+* Contact - Contact Form
   
 # Website
-Repo: https://github.com/JerronM/responsive-portfolio 
-Site: https://jerronm.github.io/responsive-portfolio/index.html
+<h3> Repo: https://github.com/JerronM/responsive-portfolio </h3>
+<br>
+<h3> Site: https://jerronm.github.io/responsive-portfolio/index.html </h3>
 
 # Image of Webpage
-![Website](https://github.com/JerronM/responsive-portfolio/tree/master/assets/img/responsive-portfolio-website.png)
+<img src="https://github.com/JerronM/responsive-portfolio/tree/master/assets/img/responsive-portfolio-website.png">
+
+
+# Contact Info
+Jerron McGinnis - jerron.mcginnis@gmail.com
