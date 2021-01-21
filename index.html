@@ -1,171 +1,289 @@
 <!DOCTYPE html>
-
-<html lang="en">
+<html>
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Jerron - Portfolio</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="assets/style.css"> 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Jerron McGinnis - Portfolio</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
 </head>
-
 <body>
-    <!--Navigation Bar-->    
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <h4 class="myname"><strong>Jerron McGinnis</strong></h4>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="contact-me.html">Contact Me</a>
-              </li>
-          </ul>
-          <span class="navbar-text">
-            <button type="button" class="btn btn-outline-primary" onclick="window.open('assets/jmcginnis_resume.pdf')">Download Resume</button>
-          </span>
+    <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient" style="background: linear-gradient(146deg, rgb(234,1,99) 0%, rgb(247,104,0));">
+        <div id="aboutme" class="container"><a class="navbar-brand logo" href="index.html">Jerron McGinnis</a>
+            <button data-toggle="collapse" class="navbar-toggler" data-target="#navbarNav"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse"
+                id="navbarNav">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contactme.html">Contact Me</a></li>
+                </ul>
+            </div>
         </div>
-      </nav>
+    </nav>
+    <main class="page lanidng-page">
+        <section class="portfolio-block block-intro">
+            <div class="container">
+                <div class="avatar" style="background-image:url(&quot;/assets/img/avatar.jpg&quot;);"></div>
+                <div class="about-me">
+                    <p>Hello, my name is <strong>Jerron McGinnis</strong>. I am am a Lifecyle Operations Engineer for General Electric. I have expirience with multiple technical disciplines & technical writing. Currently working towards further developing Cloud engineering skills.</p>
+                    <a class="btn btn-outline-primary" role="button" href="contactme.html">Contact me</a></div>
+            </div>
+        </section>
 
-    <!--Content Spacing-->
-    <div class="spacer"></div>
-    <div class="spacer"></div>
-    <div class="spacer"></div>
-    <!--About Me Section-->
-    <section>
-        <div class="about-me">
-        <div class="container-fluid">
-            <div class="row align-items-center content-row">
-              <div class="col-lg-6 wrap-block">
-                <h2>About Me:</h2>
-                <h4 class="aboutmesection">Jerron McGinnis</h4>
-                <h4 class="aboutmesection">jerron.mcginnis@gmail.com</h4>
-                <h4 class="aboutmesection">678-600-7867</h4>
-                <h5 class="aboutmesection">I am am a Lifecyle Operations Engineer for General Electric. I hold a Bachelor's Degree in Information Technology and a Technical College Certificate in PC Repair and Computer Networking. Additionally I hold multiple certifications in different technical disciplines.</h5>
-              </div>
-              <div class="col-lg-6 photo-split img-fluid">
-                  <img src="assets/img/jerron.jpg" alt="picture of jerron" >
-              </div>
+        <section class="portfolio-block skills">
+            <div class="container">
+                <div class="heading">
+                    <h2>Special Skills</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card special-skill-item border-0">
+                            <div class="card-header bg-transparent border-0"><i class="icon ion-clipboard"></i></div>
+                            <div class="card-body">
+                                <h3 class="card-title">ITIL Service Management</h3>
+                                <p class="card-text">Resposible for assisting in the training, documentation, and proper execution of lifecycle operations of the GE DOC.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card special-skill-item border-0">
+                            <div class="card-header bg-transparent border-0"><i class="icon ion-social-tux"></i></div>
+                            <div class="card-body">
+                                <h3 class="card-title">Systems Administration </h3>
+                                <p class="card-text">Responsible for fixing and maintaining automation pipelines for Windows and *NIX servers and Manage enterprise-wide access to Windows servers and NAS shares.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card special-skill-item border-0">
+                            <div class="card-header bg-transparent border-0"><i class="icon ion-social-chrome-outline"></i></div>
+                            <div class="card-body">
+                                <h3 class="card-title">Web Devlopment</h3>
+                                <p class="card-text">Foundational expirience in full stack web development including HTML/CSS, Javascript, Node, Express, React, & MySQL. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-        </div>    
-    </section>
-    <!--Content Spacing-->   
-    <div class="spacer"></div>
-    <div class="spacer"></div>
-    <div class="spacer"></div>
-    <div class="spacer"></div>
-    <!--Skills Section-->
-    <section class="portfolio-block skills skills-section aboutmesection">
+        </section>
+
+        <section class="portfolio-block cv">
+            <div class="container">
+                <div class="work-experience group">
+                    <div class="heading">
+                        <h2 class="text-center"> Current Work Experience</h2>
+                    </div>
+                    <div class="item">
+                        <div class="row">
+                            <div class="col-6">
+                                <h3>Lifecycle Operations Engineer</h3>
+                                <h4 class="organization">General Electric</h4>
+                            </div>
+                            <div class="col-md-6"><span class="period">08/2017 - Present</span></div>
+                        </div>
+                        <p class="text-muted">  ● Manage critical incidents via Service Now by leading calls with customers and collaborate with
+                            cross-functional teams to assist in the triage of incidents and restore services, within defined SLAs.
+                            Create meaningful and effective communications with Executive leadership, and drive resolutions on
+                            incidents which have affected over 300,000 users and over 1 Billion dollars in financial impact.
+                            <br>
+                            ● Proactively fix and maintain automation pipelines of Windows and Unix/Linux servers.
+                            Fulfill service requests to manage enterprise wide access to Windows Servers & NAS Shares. Edit
+                            and maintain code of DOC website and hosting server administration. Unlock and resync passwords
+                            of Windows & Unix/Linux servers through CyberArk Shared Account Password Management
+                            system. Perform application monitoring via Splunk and escalate incidents for immediate remediation.
+                            Create data center access requests for vendors to perform critical maintenance of storage arrays.
+                           <br>
+                            ● Perform troubleshooting of SDWAN routers & circuits, implement company-wide proxy blocks at
+                            request of IT Risk team, and perform IP address releases for DHCP overutilization.
+                            <br>
+                            ● Present and lead GE’s CoreTech Daily Ops call with CoreTech leadership, Problem Management,
+                            and L2/L3 from all technical stacks for post-resolution follow-ups and initial RCA findings.
+                            <br>
+                            ● Assisted with the onboarding and training over more than 25 DOC members, including FTEs,
+                            contractors, and interns. Perform process quality assurance and reporting functions such as audits of
+                            over 1500 P1 and P2 incidents for DOC members on all shifts.
+                            <br>
+                            ● Created various reports, including metrics and KPIs for DOC and GE Business Unit leadership.
+                            Created and maintained SOPs, playbook, and various documentation for the Digital Operations
+                            Center. </p>
+                    </div>
+                </div>
+
+                <div class="education group">
+                    <div class="heading">
+                        <h2 class="text-center">Education</h2>
+                    </div>
+                    <div class="item">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h3>Full Stack Web Development Certificate</h3>
+                                <h4 class="organization">Georgia Tech</h4>
+                            </div>
+                            <div class="col-6"><span class="period">09/2020 - 03/2021</span></div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h3>Bachelor of Science in Information Technology</h3>
+                                <h4 class="organization">Western Governor's University</h4>
+                            </div>
+                            <div class="col-md-6"><span class="period">07/2020</span></div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h3>PC Repair & Network Technican Certificate</h3>
+                                <h4 class="organization">Gwinnet Technical College</h4>
+                            </div>
+                            <div class="col-md-6"><span class="period">07/2017</span></div>
+                        </div>
+                    </div>
+                
+                    <div class="heading">
+                        <h2 class="text-center">Certifications</h2>
+                    </div>
+                <ul class="list-group">
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                      CompTIA A+
+                      <span class="badge badge-primary badge-pill">2019</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                      CompTIA Net+
+                      <span class="badge badge-primary badge-pill">2019</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                      CompTIA Sec+
+                      <span class="badge badge-primary badge-pill">2019</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        CompTIA Cloud Essentials
+                        <span class="badge badge-primary badge-pill">2020</span>
+                      </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        CompTIA Project+
+                        <span class="badge badge-primary badge-pill">2020</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center">
+                        ITIL Foundations
+                        <span class="badge badge-primary badge-pill">2019</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center">
+                        AWS Cloud Practitioner
+                        <span class="badge badge-primary badge-pill">2019</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center">
+                        LPI Linux Essentials
+                        <span class="badge badge-primary badge-pill">2019</span>
+                      </li>
+                      <li class="list-group-item d-flex justify-content-between align-items-center">
+                        New Relic Performance Pro
+                        <span class="badge badge-primary badge-pill">2019</span>
+                      </li>
+                  </ul>
+                  
+    </main>
+    <section class="portfolio-block website gradient">
         <div class="container">
-        <div class="heading">
-        <div class="otherspacer"></div>
-                <h2>Skills</h2>
-        </div>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card special-skill-item border-0">
-                    <div class="card-header bg-transparent border-0"><i class="icon ion-ios-star-outline"></i></div>
-                    <div class="card-body">
-                        <h3 class="card-title">ITIL Service Management</h3>
-                        <p class="card-text">Resposible for assisting in the training, documentation, and inmprovement of the GE DOC as it relates to IT Service Management.</p>
-                    </div>
-                    <div class="otherspacer"></div>
+            <div class="row align-items-center">
+                <div class="col-md-12 col-lg-5 offset-lg-1 text">
+                    <h3>Portfolio Projects</h3>
+                    <p>Below are some of my portfolio projects that display some of my abilities in Web development, Bash & PowerShell scripting, and software development. Click the images below to be taken directly to their GitHub repos.</p>
                 </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card special-skill-item border-0">
-                    <div class="card-header bg-transparent border-0"><i class="icon ion-ios-lightbulb-outline"></i></div>
-                    <div class="card-body">
-                        <h3 class="card-title">System Administration</h3>
-                        <p class="card-text">Responsible to fixing and maintaining automation pipelines for Windows and *NIX servers.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card special-skill-item border-0">
-                    <div class="card-header bg-transparent border-0"><i class="icon ion-ios-gear-outline"></i></div>
-                    <div class="card-body">
-                        <h3 class="card-title">Web Development</h3>
-                        <p class="card-text"> Foundational expirience in web development. Tasked with the upkeep of the GE Digital Operations Center website.</p>
+                <div class="col-md-12 col-lg-5">
+                    <div class="portfolio-laptop-mockup">
+                        <div class="screen">
+                            <div class="screen-content" style="background-image:url(&quot;assets/img/tech/image6.png&quot;);"></div>
+                        </div>
+                        <div class="keyboard"></div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </section>   
+    <section id="portfolioprojects" class="portfolio-block projects-cards">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card border-0"><img class="card-img-top scale-on-hover projectimg" src="assets/img/projects/port_tracker.jpg" alt="Snippet of linux server health check bash script">
+                        <div class="card-body">
+                            <h6><a href="https://github.com/srikpv/GTBootCamp_Project1" target="_blank">Portfolio Tracker</a></h6>
+                            <p class="text-muted card-text">Web application to track your gains and losses over time of stocks and cryptocurrency</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card border-0"><img class="card-img-top scale-on-hover projectimg" src="assets/img/projects/windowsserver.png" alt="Snippet of Windows server healthcheck powershell script">
+                        <div class="card-body">
+                            <h6><a href="https://github.com/JerronM/Windows-HealthCheck" target="_blank">Windows Server Healthcheck</a></h6>
+                            <p class="text-muted card-text">Powershell script for detailed automated report for Windows server health</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card border-0"><img class="card-img-top scale-on-hover projectimg" src="assets/img/projects/weather.png" alt="Snipper of printspooler reset script">
+                        <div class="card-body">
+                            <h6><a href="https://github.com/JerronM/weather-dashboard" target="_blank">Weather Dashboard</a></h6>
+                            <p class="text-muted card-text">Dashboard that shows a 5-day forecast for a city the user searches for</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card border-0"><img class="card-img-top scale-on-hover projectimg" src="assets/img/projects/cheflamp.png" alt="Snippet of chef cookbook for LAMP server deployment">
+                        <div class="card-body">
+                            <h6><a href="https://github.com/JerronM/lamp-chef" target="_blank">LAMP Stack Server Cookbook</a></h6>
+                            <p class="text-muted card-text">Chef cookbook to automatically deploy a LAMP stack linux server</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card border-0"><img class="card-img-top scale-on-hover projectimg" src="assets/img/projects/linuxcleanup.png" alt="Snippet of bash script for Linux file cleanup">
+                        <div class="card-body">
+                            <h6><a href="https://github.com/JerronM/Linux-File-Cleanup" target="_blank">Linux File Cleanup</a></h6>
+                            <p class="text-muted card-text">Bash Script to clean up files on Linux systems by archiving & compressing files</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card border-0"><img class="card-img-top scale-on-hover img-fluid projectimg" src="assets/img/projects/businesscard.png" alt="Snippet of code for business card">
+                        <div class="card-body">
+                            <h6><a href="https://github.com/JerronM/Digital-Business-Card" target="_blank">Digital Business Card</a></h6>
+                            <p class="text-muted card-text">Online business card which allows user to donwload contact info directly to their phone</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-    <!--Content Spacing-->   
-    <div class="spacer"></div>
-    <div class="spacer"></div>
-    <div class="spacer"></div>
-    <div class="spacer"></div>
-    <!--Education Section-->
-    <section class="portfolio-block skills skills-section aboutmesection">
-    <div class="container">
-        <div class="otherspacer"></div>
-        <div class="heading">
-            <h2>Education</h2>
-        </div>
-        <div class="row">
-            <div class="col-md-4">
-                <div class="card special-skill-item border-0">
-                    <div class="card-header bg-transparent border-0"><i class="icon ion-ios-star-outline"></i></div>
-                    <div class="card-body">
-                        <h3 class="card-title">Bachelor of Science in Information Technology</h3>
-                        <p class="card-text">Western Governor's University</p>
-                    </div>
+    <div class="resume-download">
+        <section class="portfolio-block call-to-action border-bottom">
+            <div class="container">
+                <div class="d-flex justify-content-center align-items-center content">
+                    <h3>Click here for a full copy of my resume</h3>
+                    <button type="button" class="btn btn-outline-primary" onclick="window.open('assets/jmcginnis_resume.pdf')">Download Resume</button>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="card special-skill-item border-0">
-                    <div class="card-header bg-transparent border-0"><i class="icon ion-ios-lightbulb-outline"></i></div>
-                    <div class="card-body">
-                        <h3 class="card-title">Technical Certificate - PC Repair and Computer Networking</h3>
-                        <p class="card-text">Gwinnett Technical College</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card special-skill-item border-0">
-                    <div class="card-header bg-transparent border-0"><i class="icon ion-ios-gear-outline"></i></div>
-                    <div class="card-body">
-                        <h3 class="card-title">Full Stack Web Development Certificate</h3>
-                        <p class="card-text">(In Progress)<br> Georgia Institute of Technology </p>
-                    </div>
-                    <div class="otherspacer"></div>
-                    <div class="otherspacer"></div>
-                </div>
-            </div>
-        </div>
+        </section>
     </div>
-    </section>
-    <!--Social Buttons-->
-    <div> 
-    </div>
-<!--Content Spacing-->   
-<div class="spacer"></div>
-<div class="spacer"></div>
-<div class="spacer"></div>
-<div class="spacer"></div>
-<!--Footer-->
-    <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
-        <div class="container text-center">
-            <small>Copyright &copy; Jerron McGinnis</small>
-            <a href="https://www.linkedin.com/in/jerron-mcginnis-25349497/" class="fa fa-linkedin"></a>
-            <a href="https://github.com/JerronM" class="fa fa-github"></a>
-        </div>
-    </footer>
-<!--Bootstrap Javascript-->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <footer class="page-footer">
+            <div class="container">
+                <div class="links">
+                    <a id="aboutme" href="#">About me</a>
+                    <a href="contactme.html">Contact me</a>
+                    <a id="portfolioprojects" href="#">Projects</a>
+                </div>
+                <div class="social-icons">
+                    <a href="#"><i class="icon ion-social-linkedin"></i></a>
+                    <a href="#"><i class="icon ion-social-github"></i></a>
+                </div>
+        </footer>
+    <!--JavaScript-->    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
+    <script src="assets/js/script.min.js"></script>
 </body>
 </html>
