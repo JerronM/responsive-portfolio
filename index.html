@@ -8,8 +8,17 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
     <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
 </head>
 <body>
+    <!-- Navbar -->
     <nav class="navbar navbar-dark navbar-expand-lg fixed-top bg-white portfolio-navbar gradient" style="background: linear-gradient(146deg, rgb(234,1,99) 0%, rgb(247,104,0));">
         <div id="aboutme" class="container"><a class="navbar-brand logo" href="index.html">Jerron McGinnis</a>
             <button data-toggle="collapse" class="navbar-toggler" data-target="#navbarNav"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
@@ -23,15 +32,18 @@
         </div>
     </nav>
     <main class="page lanidng-page">
+        <!-- Introduction -->
         <section class="portfolio-block block-intro">
             <div class="container">
                 <div class="avatar" style="background-image:url(&quot;/assets/img/avatar.jpg&quot;);"></div>
                 <div class="about-me">
                     <p>Hello, my name is <strong>Jerron McGinnis</strong>. I am am a Lifecyle Operations Engineer for General Electric. I have expirience with multiple technical disciplines & technical writing. Currently working towards further developing Cloud engineering skills.</p>
                     <a class="btn btn-outline-primary" role="button" href="contactme.html">Contact me</a></div>
-            </div>
+                    <a class="btn btn-primary" style="background-color: #3b5998" href="https://www.linkedin.com/in/jerron-mcginnis-25349497/" role="button"><i class="fab fa-linkedin"></i></a>
+                    <a class="btn" style="background-color: #949494" href="https://github.com/JerronM" role="button"><i class="fab fa-github"></i></a>            
+                </div>
         </section>
-
+        <!-- Skills Section -->
         <section class="portfolio-block skills">
             <div class="container">
                 <div class="heading">
@@ -68,7 +80,7 @@
                 </div>
             </div>
         </section>
-
+        <!-- Work Section -->
         <section class="portfolio-block cv">
             <div class="container">
                 <div class="work-experience group">
@@ -110,7 +122,7 @@
                             Center. </p>
                     </div>
                 </div>
-
+                <!-- Education Section -->
                 <div class="education group">
                     <div class="heading">
                         <h2 class="text-center">Education</h2>
@@ -142,7 +154,7 @@
                             <div class="col-md-6"><span class="period">07/2017</span></div>
                         </div>
                     </div>
-                
+                    <!-- Certifications -->
                     <div class="heading">
                         <h2 class="text-center">Certifications</h2>
                     </div>
@@ -184,7 +196,7 @@
                         <span class="badge badge-primary badge-pill">2019</span>
                       </li>
                   </ul>
-                  
+    <!-- Portfolio Section -->
     </main>
     <section class="portfolio-block website gradient">
         <div class="container">
@@ -207,19 +219,20 @@
     <section id="portfolioprojects" class="portfolio-block projects-cards">
         <div class="container">
             <div class="row">
+                <!-- Cards -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="card border-0"><img class="card-img-top scale-on-hover projectimg" src="assets/img/projects/recipemate.png" alt="Snippet of linux server health check bash script">
+                        <div class="card-body">
+                            <h6><a href="https://github.com/gehanstedt/recipe-mate" target="_blank">Recipe Mate</a></h6>
+                            <p class="text-muted card-text">Full Stack web application to create an account,  search for new recipes, save your favorites to a database, and use tools to help in cooking</p>
+                        </div>
+                    </div>
+                </div>
                 <div class="col-md-6 col-lg-4">
                     <div class="card border-0"><img class="card-img-top scale-on-hover projectimg" src="assets/img/projects/port_tracker.jpg" alt="Snippet of linux server health check bash script">
                         <div class="card-body">
                             <h6><a href="https://github.com/srikpv/GTBootCamp_Project1" target="_blank">Portfolio Tracker</a></h6>
                             <p class="text-muted card-text">Web application to track your gains and losses over time of stocks and cryptocurrency</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4">
-                    <div class="card border-0"><img class="card-img-top scale-on-hover projectimg" src="assets/img/projects/windowsserver.png" alt="Snippet of Windows server healthcheck powershell script">
-                        <div class="card-body">
-                            <h6><a href="https://github.com/JerronM/Windows-HealthCheck" target="_blank">Windows Server Healthcheck</a></h6>
-                            <p class="text-muted card-text">Powershell script for detailed automated report for Windows server health</p>
                         </div>
                     </div>
                 </div>
@@ -232,10 +245,10 @@
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4">
-                    <div class="card border-0"><img class="card-img-top scale-on-hover projectimg" src="assets/img/projects/cheflamp.png" alt="Snippet of chef cookbook for LAMP server deployment">
+                    <div class="card border-0"><img class="card-img-top scale-on-hover projectimg" src="assets/img/projects/windowsserver.png" alt="Snippet of Windows server healthcheck powershell script">
                         <div class="card-body">
-                            <h6><a href="https://github.com/JerronM/lamp-chef" target="_blank">LAMP Stack Server Cookbook</a></h6>
-                            <p class="text-muted card-text">Chef cookbook to automatically deploy a LAMP stack linux server</p>
+                            <h6><a href="https://github.com/JerronM/Windows-HealthCheck" target="_blank">Windows Server Healthcheck</a></h6>
+                            <p class="text-muted card-text">Powershell script for detailed automated report for Windows server health</p>
                         </div>
                     </div>
                 </div>
@@ -243,7 +256,7 @@
                     <div class="card border-0"><img class="card-img-top scale-on-hover projectimg" src="assets/img/projects/linuxcleanup.png" alt="Snippet of bash script for Linux file cleanup">
                         <div class="card-body">
                             <h6><a href="https://github.com/JerronM/Linux-File-Cleanup" target="_blank">Linux File Cleanup</a></h6>
-                            <p class="text-muted card-text">Bash Script to clean up files on Linux systems by archiving & compressing files</p>
+                            <p class="text-muted card-text">Bash Scripts to clean up the tmp dir, kill zombie processes and archiving & compressing files.</p>
                         </div>
                     </div>
                 </div>
@@ -268,16 +281,12 @@
             </div>
         </section>
     </div>
+        <!-- Footer -->
         <footer class="page-footer">
             <div class="container">
-                <div class="links">
-                    <a id="aboutme" href="#">About me</a>
-                    <a href="contactme.html">Contact me</a>
-                    <a id="portfolioprojects" href="#">Projects</a>
-                </div>
                 <div class="social-icons">
-                    <a href="#"><i class="icon ion-social-linkedin"></i></a>
-                    <a href="#"><i class="icon ion-social-github"></i></a>
+                    <a href="https://www.linkedin.com/in/jerron-mcginnis-25349497/"><i class="icon ion-social-linkedin"></i></a>
+                    <a href="https://github.com/JerronM"><i class="icon ion-social-github"></i></a>
                 </div>
         </footer>
     <!--JavaScript-->    
